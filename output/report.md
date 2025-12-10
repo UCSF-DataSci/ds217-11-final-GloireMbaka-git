@@ -28,7 +28,7 @@ Initial visualizations showed:
 
 
 
-![Figure 1: Initial Data Exploration](output/q1_visualizations.png)
+![Figure 1: Initial Data Exploration](q1_visualizations.png)
 *Figure 1: Initial exploration visualizations showing distributions of air temperature.*
 
 ### Phase 3: Data Cleaning
@@ -247,7 +247,7 @@ Pattern analysis revealed several important temporal and correlational patterns:
 Overall, there is a decrease trend from the time series plot.Both weekly and monthly aggregations  also revaled a decreased pattern for Air Temperature.
 Wind_speed_interaction and Maximum Wind Speed are highly correlated with a correlation coefficient of 0.929 suggesting a strong positive correlation. On the other hand, Wet Bulb Temperature was stongly correlated with Air Temperature(0.828), suggesting a strong positive correlation. 
 
-![Figure 2: Pattern Analysis](output/q5_patterns.png)
+![Figure 2: Pattern Analysis](q5_patterns.png)
 *Figure 2: Advanced pattern analysis showing monthly temperature trends, seasonal patterns by week, daily patterns by hour, and correlation heatmap of key variables.*
 
 ### Phase 7: Modeling Preparation
@@ -308,7 +308,7 @@ Top features by importance:
 
 The wet Buld Temperature_24h_mean feature dominates feature importance, accounting for 54.36% of total importance. This makes intuitive sense - seasonal patterns are the strongest predictor of air temperature. 24h_Rolling windows of predictor variables are important than derived features. The top 10 features account for 97.5% of total importance.
 
-![Figure 3: Model Performance](output/q8_final_visualizations.png)
+![Figure 3: Model Performance](q8_final_visualizations.png)
 *Figure 3: Final visualizations showing model performance comparison, predictions vs actual values, feature importance, and residuals plot for the best-performing XGBoost model.*
 
 ### Phase 9: Results
@@ -328,13 +328,13 @@ The residuals plot shows relatively uniform distribution around zero, suggesting
 
 ## Visualizations
 
-![Figure 1: Initial Data Exploration](output/q1_visualizations.png)
+![Figure 1: Initial Data Exploration](q1_visualizations.png)
 *Figure 1: Initial exploration showing distributions and time series of key variables.*
 
-![Figure 2: Pattern Analysis](output/q5_patterns.png)
+![Figure 2: Pattern Analysis](q5_patterns.png)
 *Figure 2: Advanced pattern analysis revealing temporal trends, seasonal patterns, daily cycles, and correlations.*
 
-![Figure 3: Model Performance](output/q8_final_visualizations.png)
+![Figure 3: Model Performance](q8_final_visualizations.png)
 *Figure 3: Final results showing model comparison, prediction accuracy, feature importance, and residual analysis.*
 
 ## Model Results
