@@ -404,7 +404,7 @@ Since temporal patterns are essential for accurate prediction, as shown by the h
    - Large number of missing values in Wet Bulb Temperature (38.7%) required imputation, which may introduce bias.
    - Sensor dropouts in 2020 and 2021 create gaps in time series that could affect pattern detection
    - Outlier capping may have removed some valid extreme events which might also bias the results
-   - Only 3 weather stations - limited spatial coverage
+   - Only 3 weather stations - limited spatial coverage.
 
 2. **Model Limitations:**
    - Despite the good performance of Linear Regression, it has a lower R square compared to XGBoost. Additionally, it has a larger RMSE of 2.57 °C versus 1.61 °C for XGBoost. This suggests that linear relationships are insufficient for this task and that XGBoost was more suitable for capturing non-linear relationships. 
@@ -459,7 +459,7 @@ Since temporal patterns are essential for accurate prediction, as shown by the h
    - Real-time prediction system
    - Alert system for extreme conditions
    - Dashboard for beach managers
-   - Integration with weather forecasting systems
+   - Integration with weather forecasting systems.
 
 ## Conclusion
 
